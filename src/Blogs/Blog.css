@@ -1,0 +1,22 @@
+.blog-1 {
+    height: 100%;
+    width: 100%;
+    -webkit-box-shadow: -1px -4px 15px 4px rgba(0,0,0,0.88);
+-moz-box-shadow: -1px -4px 15px 4px rgba(0,0,0,0.88);
+box-shadow: -1px -4px 15px 4px rgba(0,0,0,0.88);
+/* justify-content: center; */
+background-color: #4747ef;
+border-radius: 10px;
+}
+.img-style {
+    justify-content: center;
+    /* width: 80%; */
+    /* padding-left: 50px; */
+    color: transparent;
+    border-radius: 10px;
+    
+
+}
+.bgColor{
+    background-color: blue;
+}
