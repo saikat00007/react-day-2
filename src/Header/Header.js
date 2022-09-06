@@ -3,28 +3,23 @@ import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
 import './Header.css';
 const saikat = () => {
     return (
-        <div className='bg-secondary'>
+        <div id='home' className='bg-secondary'>
             <Container >
-            <Navbar bg="" expand="lg" className='text-light navbar-fixed'>
+            <Navbar bg="info" expand="lg" className='text-light navbarFixed'>
                 <Navbar.Brand href="#home" className='text-light'>React-Bootstrap</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto w-100 justify-content-end">
                         <Nav.Link href="#home" className='text-dark'>Home</Nav.Link>
-                        <Nav.Link href="#link" className='text-dark'>services</Nav.Link>
-                        <Nav.Link href="#home" className='text-dark'>Blog</Nav.Link>
-                        <Nav.Link href="#link" className='text-dark'>review</Nav.Link>
-                        {/* <div className='search  '>
-                            <input className='srch  ' type="search" name="" placeholder="" />
-                            <a href="/#"> <button className='btn text-light'>Search</button></a>
-
-                        </div> */}
+                        <Nav.Link href="#Blog" className='text-dark'>Blog</Nav.Link>
+                        <Nav.Link href="#review" className='text-dark'>review</Nav.Link>
+                        <Nav.Link href="#contect" className='text-dark'>contect me</Nav.Link>
                     </Nav>
 
                 </Navbar.Collapse>
             </Navbar>
             <header>
-                <div id='home' className='header-section'>
+                <div  className='header-section'>
                     <Row>
                         <Col md={8}><h2 className='pt-3 px-5'>
                             SHOUKATUL ISLAM

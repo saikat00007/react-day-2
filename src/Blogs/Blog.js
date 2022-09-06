@@ -6,7 +6,7 @@ import { Card, Col, Container, Row } from 'react-bootstrap';
 import './Blog.css';
 const Blog = () => {
     return (
-        <div className='pt-5 bg-secondary'>
+        <div id='Blog' className='pt-5 bg-secondary'>
             <Container className='  pb-3'>
                 <Row xs={1} md={2} className="g-4 ">
                     {/* {Array.from({ length: 4 }).map((_, idx) => ( */}

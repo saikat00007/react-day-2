@@ -2,7 +2,7 @@ import './contect-me.css';
 import {  } from 'react-bootstrap';
 const contect = () => {
     return (
-      <div className="bg-secondary"> 
+      <div id='contect' className="bg-secondary"> 
  <div className="container">
 	<div className="row">
 			<h1 className="text-center">contact us</h1>
