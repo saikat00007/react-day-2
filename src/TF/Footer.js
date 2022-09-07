@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 
-const App = () => {
+const footer = () => {
     return (
       <div className="bg-dark">
         <Container>
@@ -10,5 +10,5 @@ const App = () => {
     );
   }
   
-  export default App;
+  export default footer;
   
