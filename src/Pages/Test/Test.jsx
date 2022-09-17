@@ -22,6 +22,6 @@ const Test = () => {
             <button type="" onClick={clickHandler}>Click me</button>
         </div>
     );
-};
+}; 
 
 export default Test;

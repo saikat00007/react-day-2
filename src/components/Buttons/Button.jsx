@@ -5,7 +5,7 @@ const MainBtn = ({ btnText, clickHandler }) => {
     
     return (
         <div id='btn-grp-mainBtn'>
-            <button onClick={(e) => clickHandler(e)} className="custom-btn btn-7"><span>{btnText}</span></button>
+            <button  onClick={(e) => clickHandler(e)} className='custom-btn btn-7'><span>{btnText}</span></button>
         </div>
     );
 };
