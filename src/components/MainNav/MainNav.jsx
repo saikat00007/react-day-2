@@ -38,6 +38,14 @@ const MainNav = () => {
                         >
                             Test
                         </NavLink>
+                        <NavLink
+                            to="/login"
+                            className={({ isActive }) =>
+                                isActive ? 'nav-active' : ''
+                            }
+                        >
+                            Login
+                        </NavLink>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

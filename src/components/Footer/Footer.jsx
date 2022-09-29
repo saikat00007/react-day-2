@@ -1,11 +1,15 @@
-import React from 'react';
+import * as React from 'react';
+import { useLocation } from 'react-router-dom';
 
-const Footer = () => {
-    return (
-        <div>
-            <h1>Footer</h1>
-        </div>
-    );
-};
+const App = () => {
+//   // let location = useLocation();
 
-export default Footer;
+//   // React.useEffect(() => {
+//   //   ga('send', 'pageview');
+//   // }, [location]);
+
+//   // return (
+//   //   useLocation(send)
+//   );
+}
+export default App;
